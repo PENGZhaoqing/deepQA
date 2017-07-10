@@ -1,10 +1,12 @@
 # Updated
 
-* 原版本DeepQA为python 3.5,此版本为python 2.7
+* 原版本DeepQA为python 3.5,此版本可以在python 2.7中运行
 * 测试时增加Beam Search，训练好后运行`main.py --test --beam-search --beam-size 3`生成对话，也可以使用`--test interactive`来实时对话
 * 解决一些在Tensorflow版本1.21中的bug
 
-#### Beam Search Results
+### [详细说明](http://blog.csdn.net/ppp8300885/article/details/74905828)
+
+Results with beam search
 
 ```
 # main.py --test --beam-search --beam-size 3
