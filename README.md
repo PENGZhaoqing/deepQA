@@ -1,10 +1,10 @@
-## Updated
+# Updated
 
 * 原版本DeepQA为python 3.5,此版本为python 2.7
 * 测试时增加Beam Search，训练好后运行`main.py --test --beam-search --beam-size 3`查看对话吗，也可使用`--test interactive`
 * 解决一些在Tensorflow版本1.21中的bug
 
-### Beam Search Results
+#### Beam Search Results
 
 ```
 # main.py --test --beam-search --beam-size 3
@@ -40,7 +40,7 @@ A: Good...
 ```
 
 
-# Deep Q&A
+# [Original Guidebook Deep Q&A](https://github.com/Conchylicultor/DeepQA)
 [![Join the chat at https://gitter.im/chatbot-pilots/DeepQA](https://badges.gitter.im/chatbot-pilots/DeepQA.svg)](https://gitter.im/chatbot-pilots/DeepQA?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 #### Table of Contents
